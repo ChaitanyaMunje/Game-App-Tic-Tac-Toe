@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".OnlinePlayerActivity">
+
+    <TextView
+        android:id="@+id/idTVhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="130dp"
+        android:gravity="center"
+        android:text="Tic Tac Toe"
+        android:textColor="@color/black"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/idEdtGameCode"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:hint="Enter Game Code"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Create"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:background="#B2BCF8"
+        android:text="Create" />
+
+    <Button
+        android:id="@+id/Join"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="#B2BCF8"
+        android:text="Join" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+</LinearLayout>
